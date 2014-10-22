@@ -622,7 +622,12 @@
         }
     };
 
-
+    Pikaday.setDefault = function (props) {
+        
+        return extend(defaults, props)
+        
+    }
+    
     /**
      * public Pikaday API
      */
